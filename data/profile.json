@@ -54,16 +54,5 @@
       "url": "https://github.com/Peixoto1990/organo",
       "isGit": true
     }
-  ],
-  "experiencias": [
-    {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
-    }
   ]
 }
