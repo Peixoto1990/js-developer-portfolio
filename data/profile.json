@@ -8,19 +8,19 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "HTML",
+        "name": "HTML",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Devicon-html5-plain.svg/640px-Devicon-html5-plain.svg.png"
       },
       {
-        "nome": "CSS",
+        "name": "CSS",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/640px-Devicon-css3-plain.svg.png"
       },
       {
-        "nome": "Javascript",
+        "name": "Javascript",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/JavaScript_shield_logo_%28no_text%29.svg/640px-JavaScript_shield_logo_%28no_text%29.svg.png"
       },
       {
-        "nome": "ReactJS",
+        "name": "ReactJS",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
       }
     ],
