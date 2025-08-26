@@ -20,8 +20,23 @@ async function updateProfileInfo(profileData) {
     profileElements.email.href = `mailto:${data.email}`;
 }
 
+async function updateSoftSkills(profileData) {
+    const data = await profileData.skills.softSkills;
+    const dataLIElements = data.map((skill) => `<li>${skill}</li>`).join("");
+    const listSkills = document.getElementById("profile.skills.softSkills");
+    listSkills.innerHTML = dataLIElements;
+}
+
+async function updateHardSkills(profileData) {
+    const data = await profileData.skills.hardSkills;
+    const dataLIElements = data.map((skill) => `<li><img src=${skill.logo} alt=${skill.name} title=${skill.name}></li>`).join("");
+    const listSkills = document.getElementById("profile.skills.hardSkills");
+    listSkills.innerHTML = dataLIElements;
+}
 
 (async () => {
     const profileData = await fechProfileData()
     updateProfileInfo(profileData);
+    updateSoftSkills(profileData);
+    updateHardSkills(profileData)
 })()
