@@ -5,7 +5,7 @@ async function fechProfileData() {
 
         const responseData = await requestData.json();
 
-        console.log(responseData);
+        return responseData
     } catch (error) {
         console.error(error);
     }

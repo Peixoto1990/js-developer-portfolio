@@ -8,22 +8,30 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
+        "nome": "HTML",
         "logo": "TODO"
       },
       {
-        "nome": "Java",
+        "nome": "CSS",
         "logo": "TODO"
       },
       {
-        "nome": "Kotlin",
+        "nome": "Javascript",
+        "logo": "TODO"
+      },
+      {
+        "nome": "ReactJS",
         "logo": "TODO"
       }
     ],
     "softSkills": [
-      "Comunicação",
+      "Proatividade",
       "Empatia",
-      "Poder de Sedução Imcomparável"
+      "Autoconhecimento",
+      "Autonomia",
+      "Curiosidade",
+      "Organização",
+      "Inteligência emocional"	
     ]
   },
   "idiomas": [

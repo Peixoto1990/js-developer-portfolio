@@ -1,5 +1,27 @@
 
+async function updateProfileInfo(profileData) {
+    const data = await profileData;
+    const profileElements = {
+        photo: document.getElementById("profile.photo"),
+        name: document.getElementById("profile.name"),
+        job: document.getElementById("profile.job"),
+        location: document.getElementById("profile.location"),
+        phone: document.getElementById("profile.phone"),
+        email: document.getElementById("profile.email")
+    }
+    profileElements.photo.src = data.photo;
+    profileElements.photo.alt = data.name;
+    profileElements.name.textContent = data.name;
+    profileElements.job.textContent = data.job;
+    profileElements.location.textContent = data.location;
+    profileElements.phone.textContent = data.phone;
+    profileElements.phone.href = `tel:${data.phone}`;
+    profileElements.email.textContent = data.email;
+    profileElements.email.href = `mailto:${data.email}`;
+}
+
+
 (async () => {
     const profileData = await fechProfileData()
-    console.log(profileData);
+    updateProfileInfo(profileData);
 })()
